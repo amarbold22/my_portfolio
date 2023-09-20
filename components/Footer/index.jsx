@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./style.module.css";
 
 const Footer = () => {
-  return <div className={`${styles.navbar} h-10`}>Footer</div>;
+  return <div className="bg-purple-700 h-12">Footer</div>;
 };
 
 export default Footer;
