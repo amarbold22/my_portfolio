@@ -5,14 +5,12 @@ import { AnimatePresence } from "framer-motion";
 
 export default function App({ Component, pageProps }) {
   return (
-    <AnimatePresence>
-      <div className="text-white h-screen">
+      <div className="text-white">
         <Header />
-        <div className="h-[calc(100%-6rem)]">
+        <div>
           <Component {...pageProps}/>
         </div>
         <Footer />
       </div>
-    </AnimatePresence>
   );
 }

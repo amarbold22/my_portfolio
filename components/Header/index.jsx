@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
 const Header = () => {
   return (
@@ -25,9 +24,9 @@ const Header = () => {
                 Contact
               </Link>
           </div>
-        <div className="bg-gray-300 text-black rounded-xl flex justify-center items-center w-32 h-10">
+        <button className="bg-blue-500 text-black rounded-xl flex justify-center items-center w-32 h-10">
           Let's talk
-        </div>
+        </button>
     </header>
   );
 };
