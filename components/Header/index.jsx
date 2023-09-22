@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="bg-black flex justify-evenly items-center w-full text-white h-24 text-xl">
+    <header className="bg-gradient-to-tl from-slate-800 to-slate-900 hover:bg-gradient-to-l flex justify-evenly items-center w-full text-white h-24 text-xl">
           <div className="text-white text-3xl">
-            Logo
+            Amarbold
           </div>
           <div className="flex text-white gap-14">
               <Link className="ml-3" href="/">
@@ -24,7 +24,7 @@ const Header = () => {
                 Contact
               </Link>
           </div>
-        <button className="bg-blue-500 text-black rounded-xl flex justify-center items-center w-32 h-10">
+        <button className="bg-purple-400 text-black rounded-xl flex justify-center items-center w-32 h-10">
           Let's talk
         </button>
     </header>

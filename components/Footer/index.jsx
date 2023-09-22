@@ -9,10 +9,11 @@ const Footer = () => {
       <div>Home</div>
       <div>About</div>
       <div>Works</div>
+      <div>Services</div>
       <div>Contact</div>
     </div>
-    <div className="flex gap-2">
-      <div>R</div>
+    <div className="flex">
+      <div>®</div>
       <div>All rights Reserved</div>
     </div>
   </div>
