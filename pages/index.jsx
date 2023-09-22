@@ -5,7 +5,7 @@ export default function Home() {
     <main className="bg-gradient-to-br from-cyan-200 to-violet-900 px-40 py-10">
       <div className="flex flex-col gap-4">
           <div className="flex flex-col 2xl:flex-row gap-8 h">
-            <div className="flex flex-1 flex bg-gray-900 rounded-xl p-12 gap-4 ">
+            <div className="flex flex-1 flex-col xl:flex-row  bg-gray-900 rounded-xl p-12 gap-4 ">
               <div className="flex-1 w-[600px] max-h-[600px] overflow-hidden bg-red-800 justify-center items-center rounded-xl">
                 <img src="https://images.unsplash.com/photo-1654110455429-cf322b40a906?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2960&q=80" alt="photo"/>
               </div>
